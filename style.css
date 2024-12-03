@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container .next #end{
+    margin-left: 1000px;
+    margin-bottom: 100px;
+    background-color: aquamarine;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    
+}
+
+#the-end{
+    
+    margin-bottom: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    visibility: hidden;
+}
+
+h2{
+    color: white;
+    margin-left: 400px;
+}
+
+#giphy-embed{
+   margin-left: 100px;
+   margin-top: 50px;
+   display: none;
+}
+
+#color{
+    background-color: rgb(107, 34, 252);
+    max-width: 482px;
+    min-height: 482;
+    max-height: 482px;
+    min-height: 482px;
+    margin-left: 100px;
+    display: none;
+
+}
+
+
+.container #other{
+    margin-left: 50px;
+    margin-bottom: 100px;
+    background-color: aquamarine;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    visibility: hidden;
+}
+
+#oth{
+    margin-bottom: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    display: none;
+}
+
+.typewriter{
+    display: flex;
+    justify-content: center;
+}
+
+.typewriter h1{
+    color: white;
+    font-family: monospace;
+    font-size: 5rem;
+    margin-inline: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right:1px solid;
+    animation: typing 3s steps(22) forwards,
+    blink 1s step-end infinite;
+    visibility: hidden;
+}
+
+#letter{
+    margin-top: 200px;
+    margin-left: 500px;
+    color: white;
+    display: none;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
